@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+
+<!-- Figure 9. The most influential factors in energy policy development with the integration of AI strategies. -->
+
+<html>
+<head>
+
+	<style>
+	         .center {
+	          display: flex;
+	          justify-content: center;
+	          align-items: center;
+	         }
+	         .text-center {
+	          text-align: center;
+	         }
+	</style>
+
+	<title>AI in Energy: Overcoming Unforeseen Obstacles</title>
+
+</head>
+
+<body>
+	<p>&nbsp;</p>
+	<p class="text-center"><span style="font-size:18pt"><span style="font-family:&quot;Palatino Linotype&quot;,serif"><span style="color:black"><strong>AI in Energy: Overcoming Unforeseen Obstacles</strong></span></span></span>
+	</p>
+
+
+	<p class="text-center"><span style="font-size:12pt"><span style="font-family:&quot;Palatino Linotype&quot;,serif"><span style="color:black"><strong>Mir Sayed Shah Danish</strong></span></span></span>
+	</p>
+
+
+	<p class="text-center"><span style="font-size:10pt"><span style="font-family:&quot;Palatino Linotype&quot;,serif"><span style="color:black">Energy Systems (Chubu Electric Power) Funded Research Division<br>
+	IMaSS (Institute of Materials and Systems for Sustainability)<br>
+	Nagoya University, Furocho, Chikusa Ward, Nagoya, Aichi 464-8601, Japan</span></span></span>
+	</p>
+
+
+	<p class="text-center"><span style="font-size:10.0pt"><span style="font-family:&quot;Palatino Linotype&quot;,serif"><span style="color:black">Correspondence: <a href="mailto:mdanish@nagoya-u.jp">mdanish@nagoya-u.jp</a></span></span></span>
+	</p>
+	
+	    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+
+        
+  function export_chart() {
+        var format = document.getElementById("format").value;
+        revenueChart.exportChart({
+            "exportFormat": format
+        });
+    }
+    document.getElementById("export").addEventListener("click", export_chart);
+});
+
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+    
+    google.charts.load('current', {'packages':['sankey']});
+    google.charts.setOnLoadCallback(drawChart);
+
+    function drawChart() {
+        var data = new google.visualization.DataTable();
+        data.addColumn('string', 'From');
+        data.addColumn('string', 'To');
+        data.addColumn('number', 'Value');
+        data.addRows([
+          ['Technical', 'AI-powered', 72],
+          ['Technical', 'Development', 72],
+          ['Technical', 'Implementation', 72],
+          ['Technical', 'Tools', 72],
+          ['Technical', 'Digitalization', 72],
+          ['Technical', 'Techniques', 72],
+          ['Technological', 'Digitalization', 71],
+          ['Technological', 'Automation', 71],
+          ['Technological', 'AI-powered', 71],
+          ['Economic', 'Market', 74],
+          ['Economic', 'Management', 74],
+          ['Economic', 'Sustainability', 74],
+          ['Economic', 'Governance', 74],
+          ['Economic', 'Efficiency', 74],
+          ['Environmental', 'Emissions', 70],
+          ['Environmental', 'Renewable', 70],
+          ['Social', 'Access', 75],
+          ['Social', 'Participation', 75],
+          ['Social', 'Management', 75],
+          ['Social', 'Sustainability', 75],
+          ['Social', 'Incentives', 75],
+          ['Institutional', 'Governance', 80],
+          ['Institutional', 'Decision-making', 80],
+          ['Institutional', 'AI-powered', 80],
+          ['Political', 'Regulation', 85],
+          ['Political', 'Incentives', 85],
+          ['Political', 'Decision-making', 85],
+          ['Political', 'Sustainability', 85],
+          ['Technological', 'Innovation', 68],
+          ['Technological', 'Efficiency', 68],
+          ['Environmental', 'Storage', 70],
+          ['Environmental', 'Transition', 70],
+          ['Environmental', 'Sustainability', 70],
+          ['Social', 'Equity', 75],
+          ['Social', 'Stakeholder', 75],
+          ['Institutional', 'Best-practices', 80],
+          ['Institutional', 'Challenges', 80],
+          ['Institutional', 'Regulation', 80],
+          ['Political', 'AI-powered', 85],
+          ['Political', 'Ethics', 85],
+          ['Technical', 'Accessibility', 67],
+          ['Environmental', 'Sustainability', 70],
+          ['Environmental', 'Resilience', 70],
+          ['Social', 'Ethics', 75],
+          ['Social', 'Incentives', 75],
+          ['Institutional', 'Accessibility', 80],
+          ['Institutional', 'Compliance', 80],
+          ['Political', 'Privacy', 85],
+          ['Political', 'Security', 85] 
+        ]);
+        
+        var chart = new google.visualization.Sankey(document.getElementById('chart_div', 'sankey.node.colors', 'sankey.link.colors'));
+        chart.draw(data, options);
+      	}
+      
+        var colors = ['#485267', '#557C7B', '#C3BC4F', '#262626', '#FDCD5A', '#72924E'];
+
+	var options = {
+  height: 800,
+  width: 500,
+  sankey: {
+    node: {
+      colors: colors,
+            dataLabels: {
+                enabled: true,
+                align: 'left',
+                color: '#FFFFFF',
+                x:100
+                },
+	  label: {
+            fontName: 'Times New Roman',
+            fontSize: 12,
+            color: '#000',
+            auraColor: 'none'
+          },
+      nodePadding: 5, // adjust the padding between nodes
+      nodeWidth: 20    // adjust the width of the nodes
+    },
+    link: {
+      colorMode: 'gradient',
+      colors: colors     
+    }
+  }
+};
+    </script>
+
+	<div class="center">
+		<div id="chart_div" style="width: 500px; height: 800px;">
+		</div>
+	</div>
+
+	<p class="text-center" style="margin-top: 20px;"><span style="font-size:12pt"><span style="font-family:&quot;Palatino Linotype&quot;,serif"><span style="color:black"><strong>Figure 9.</strong> The most influential factors in energy policy development with the integration of AI strategies.</span></span></span>
+	</p>
+
+
+	<p>&nbsp;</p>
+</body>
+</html>
